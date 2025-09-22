@@ -18,9 +18,12 @@ print(abs(2.9))
 print(math.ceil(2.2))
 
 
-temperature = 15
+temperature = 10
 if temperature > 30:
     print("It's warm")
     print("Drink water")
+elif temperature > 20:
+    print("It's nice")
+else:
+    print("It's cold")
 print("Done")
-
