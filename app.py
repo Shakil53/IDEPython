@@ -19,5 +19,7 @@ print(math.ceil(2.2))
 
 
 x = input("x: ")
-# y = x + 1
-print(type(x))
+y = int(x) + 1
+print(f"x: {x}, y: {y}")
+
+
