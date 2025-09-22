@@ -42,3 +42,9 @@ message = "Eligible" if age >= 18 else "Not eligible"
 print(message)
 
 
+# logical operator
+high_income = True
+good_credit = True
+if high_income and good_credit:
+    print("eLigible")
+print("you aren't eligible for loan")
