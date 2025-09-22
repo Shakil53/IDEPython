@@ -45,7 +45,11 @@ print(message)
 # logical operator
 high_income = True
 good_credit = True
+student = True
 if high_income and good_credit:
     print("eLigible")
 else:
     print("you aren't eligible for loan")
+## Chaining Comparison Operators
+# age should be between 18 and 65
+
