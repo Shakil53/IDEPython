@@ -1,27 +1,23 @@
+import math
+
 z = 3 + 5j  # complex number
-print(z.real)  # 3.0
-print(z.imag)  # 5.0
 
 
 x = frozenset({"apple", "banana", "cherry"})
 
-print(x)  
+print(x)
 
 
+print(10 / 3)
+print(10 // 3)
+
+print(round(2.8))
+print(abs(2.9))
 
 
+print(math.ceil(2.2))
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+x = input("x: ")
+# y = x + 1
+print(type(x))
