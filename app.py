@@ -17,7 +17,7 @@ print(abs(2.9))
 
 print(math.ceil(2.2))
 
-#conditional statement
+# conditional statement
 temperature = 10
 if temperature > 30:
     print("It's warm")
@@ -29,7 +29,7 @@ else:
 print("Done")
 
 
-#ternary operator
+# ternary operator
 age = 10
 if age >= 18:
     message = "Eligible"
@@ -37,7 +37,7 @@ else:
     message = "Not eligible"
 print(message)
 
-#magic here---
+# magic here---
 message = "Eligible" if age >= 18 else "Not eligible"
 print(message)
 
@@ -47,4 +47,5 @@ high_income = True
 good_credit = True
 if high_income and good_credit:
     print("eLigible")
-print("you aren't eligible for loan")
+else:
+    print("you aren't eligible for loan")
